@@ -18,15 +18,15 @@
 \ProvidesPackage{chapterthumb}%
   [2016/02/01 v0.3a unsupported LaTeX package]
 \ProcessOptions\relax
-\RequirePackage{graphicx,color}
+\RequirePackage{graphicx,xcolor}
 \RequirePackage{scrlayer}
 \newcommand*{\firstchapterthumbskip}{.05\paperheight}
 \newcommand*{\lastchapterthumbskip}{\firstchapterthumbskip}
 \newcommand*{\chapterthumbheight}{2em}
 \newcommand*{\chapterthumbwidth}{.2\paperheight}
 \newcommand*{\chapterthumbskip}{.1\paperheight}
-\newcommand*{\chapterthumbboxcolor}{black}
-\newcommand*{\chapterthumbcolor}{white}
+\newcommand*{\chapterthumbboxcolor}{gray}
+\newcommand*{\chapterthumbcolor}{black}
 \newcommand*{\chapterthumbformat}{\@chapapp~\thechapter}
 \newkomafont{chapterthumb}{\normalfont\Large\sffamily}
 \newcommand*{\chapterthumbbox}{%
